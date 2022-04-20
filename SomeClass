@@ -1,0 +1,23 @@
+<?
+class SomeClass {
+
+    private function barMethod(): string
+    {
+        return 'Bar';
+    }
+
+    protected function fooMethod(): string
+    {
+        return 'Foo';
+    }
+
+    public function zooMethod(): string
+    {
+        return 'Zoo';
+    }
+
+}
+
+$someObj = new SomeClass();
+
+?>
